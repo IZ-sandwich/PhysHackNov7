@@ -7,22 +7,20 @@ This is our entry for the McGill Physics Hackathon (2020). We built a numerical 
 </p>
 
 The *reaction-diffusion* model leads to a diverse array of patterns defined by three model parameters: diffusion rate, feed rate, and kill rate. Varying these parameters can lead to a variety of stable and unstable states allowing us to closely model animal coat patterns ranging from stripes to dots.
-
-<img align="center" src="/output/images/test9.png"
-	title="Application Running" width="400" />
-<img align="center" src="/output/images/test10.png"
-	title="Application Running" width="400" />
-<img align="center" src="/output/images/test11.png"
-	title="Application Running" width="400" />
+	
+<p align="center">
+	<img width="250" src="/output/images/test9.png"/>
+	<img width="250" src="/output/images/test15.png"/>
+	<img width="250" src="/output/images/test11.png"/>
+</p>
 
 In addition to setting invariant model parameter for each run, we've experimented with spatially varying model parameters resulting in the following patterns.
 
-<img align="center" src="/output/images/test16.png"
-	title="Application Running" />
-<img align="center" src="/output/images/test15.png"
-	title="Application Running" />
-<img align="center" src="/output/images/test13.png"
-	title="Application Running" />
+<p align="center">
+	<img width="250" src="/output/images/test16.png"/>
+	<img width="250" src="/output/images/test10.png"/>
+	<img width="250" src="/output/images/test13.png"/>
+</p>
 
 
 
