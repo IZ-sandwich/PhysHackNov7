@@ -2,8 +2,9 @@
 
 This is our entry for the McGill Physics Hackathon (2020). We built a numerical model to generate patterns commonly seen on animals, fish and flora. Our approach uses a reaction-diffusion model orininally proposed by Alan Turin in 1952. We focued mainly on the Gray-Scott model and produced a bunch of graphics which can be seen in the 'output' folder.
 
-<img align="center" src="/output/images/fish.jpg"
-	title="Application Running" width="400" />
+<p align="center">
+  <img width="460" src="/output/images/fish.jpg">
+</p>
 
 The *reaction-diffusion* model leads to a diverse array of patterns defined by three model parameters: diffusion rate, feed rate, and kill rate. Varying these parameters can lead to a variety of stable and unstable states allowing us to closely model animal coat patterns ranging from stripes to dots.
 
@@ -17,11 +18,11 @@ The *reaction-diffusion* model leads to a diverse array of patterns defined by t
 In addition to setting invariant model parameter for each run, we've experimented with spatially varying model parameters resulting in the following patterns.
 
 <img align="center" src="/output/images/test16.png"
-	title="Application Running" width="400" />
+	title="Application Running" />
 <img align="center" src="/output/images/test15.png"
-	title="Application Running" width="400" />
+	title="Application Running" />
 <img align="center" src="/output/images/test13.png"
-	title="Application Running" width="400" />
+	title="Application Running" />
 
 
 
