@@ -4,6 +4,7 @@ from math import floor
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import signal
+import scipy.stats as st
 from matplotlib import animation, rc
 # from IPython.display import HTML
 
@@ -14,11 +15,11 @@ len_Y = 200
 dim = (len_X,len_Y)
 
 showAnimation = False
-numSteps = 200
+numSteps = 800
 stepsPerFrame = 100
 
 # Diffusion Rates
-d_a = 0.9
+d_a = 0.82
 d_b = 0.5
 f = 0.055
 k = 0.062
@@ -43,6 +44,14 @@ for i in range(num_seeds):
   d_x = random.randint(min_blob, max_blob)
   d_y = random.randint(min_blob, max_blob)
   B[x - floor(d_x/2): x + floor(d_x/2), y - floor(d_y/2): y + floor(d_y/2)] = 1
+
+def gkern(kernlen=21, nsig=3):
+  """Returns a 2D Gaussian kernel."""
+
+  x = np.linspace(-nsig, nsig, kernlen + 1)
+  kern1d = np.diff(st.norm.cdf(x))
+  kern2d = np.outer(kern1d, kern1d)
+  return kern2d / kern2d.sum()
 
 def initPlot():
   pos.set_array(A)
