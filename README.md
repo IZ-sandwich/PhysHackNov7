@@ -4,6 +4,7 @@ This is our entry for the McGill Physics Hackathon (2020). We built a numerical 
 
 <p align="center">
   <img width="460" src="/output/images/fish.jpg">
+  <img width="300" src="/output/videos/test1.gif">
 </p>
 
 The *reaction-diffusion* model leads to a diverse array of patterns defined by three model parameters: diffusion rate, feed rate, and kill rate. Varying these parameters can lead to a variety of stable and unstable states allowing us to closely model animal coat patterns ranging from stripes to dots. 
